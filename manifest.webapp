@@ -1,12 +1,12 @@
 {
-  "name": "Post to the Twitter",
-  "description": "Adds 'Post to the Twitter' to the browser's share menu.",
+  "name": "Tweet this page",
+  "description": "Adds 'Tweet this page' to the browser's 'share' menu.",
   "version": "0.1.0",
   "default_locale": "en",
   "locales": {
     "ja": {
-      "name": "Twitterへ投稿",
-      "description": "ブラウザーの共有メニューに「Twitterへ投稿」を追加します。"
+      "name": "このページをツイート",
+      "description": "ブラウザーの「共有」メニューに「このページをツイート」を追加します。"
     }
   },
   "launch_path": "/index.html",
