@@ -13,15 +13,18 @@ This tiny application adds "Tweet this page" option to Firefox OS's "Share with"
 
 
 <div lang="en">
+
 ## Remarks
 
 - This application behaves just like "Tweet" button.
 - This application doesn't manage Twitter user accounts.
-</div>
 
+</div>
 <div lang="ja">
+
 ## 備考
 
 - このアプリケーションは「ツイート」ボタンと同様の動作しかしません
 - このアプリケーションはTwitterのユーザーアカウントを管理しません
+
 </div>
