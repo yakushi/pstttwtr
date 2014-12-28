@@ -1,0 +1,12 @@
+{
+    "env": {
+        "browser": true,
+    },
+    "globals": {
+      "URL": true,
+      "console": true,
+    },
+    "rules": {
+      "no-console": 0
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Post to the Twitter",
+  "description": "Adds 'Post to the Twitter' to the browser's share menu.",
+  "default_locale": "en",
+  "locales": {
+    "ja": {
+      "name": "Twitterへ投稿",
+      "description": "ブラウザーの共有メニューに「Twitterへ投稿」を追加します。"
+    }
+  },
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "type": "privileged",
+  "permissions": {},
+  "activities": {
+    "share": {
+      "href": "./index.html",
+      "filters": {
+        "type": "url",
+        "url": {
+          "required": true,
+          "regexp": "/^https?:.{1,16384}$/"
+        }
+      },
+      "returnValue": false
+    }
+  }
+}
