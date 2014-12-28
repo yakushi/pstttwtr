@@ -1,6 +1,7 @@
 {
   "name": "Post to the Twitter",
   "description": "Adds 'Post to the Twitter' to the browser's share menu.",
+  "version": "0.1.0",
   "default_locale": "en",
   "locales": {
     "ja": {
@@ -10,10 +11,12 @@
   },
   "launch_path": "/index.html",
   "icons": {
-    "16": "/icons/icon16x16.png",
-    "48": "/icons/icon48x48.png",
-    "60": "/icons/icon60x60.png",
-    "128": "/icons/icon128x128.png"
+    "128": "/icons/icon128x128.png",
+    "512": "/icons/icon512x512.png"
+  },
+  "developer": {
+    "name": "Takeshi Kurosawa",
+    "url": "https://github.com/takenspc/pstttwtr"
   },
   "type": "privileged",
   "permissions": {},
