@@ -3,31 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title data-l10n-id="app-name">Tweet</title>
+    <title data-l10n-id="app-name">Tweet this page</title>
     <link rel="stylesheet" type="text/css" href="style/headers.css">
-    <link rel="stylesheet" type="text/css" href="style/input_areas.css">
-    <link rel="stylesheet" type="text/css" href="style/buttons.css">
     <link rel="resource" type="application/l10n" href="locales/locales.ini" />
     <style>
       html, body {
         margin:0;
         padding:0;
+      }
+      html {
         font-size:10px;
       }
-      .skin-dark textarea {
-        color:#333;
+      p {
+        margin:1rem;
+        font-size:1.6em;
+        line-height:1.2;
       }
     </style>
     <script src="js/app.js" defer></script>
     <script src="js/l10n.js"></script>
   </head>
-
   <body>
    <section class="skin-dark" role="region">
-     <header><h1 data-l10n-id="app-name">Tweet</h1></header>
-     <p><textarea data-l10n-id="app-input" id="textInput" required placeholder="Texts to tweet"></textarea></p>
-     <div><button data-l10n-id="app-button" id="textButton" type="button">Tweet</button></div>
+     <header><h1 data-l10n-id="app-name">Tweet this page</h1></header>
+     <p data-l10n-id="app-description">This application is sololy intended to add "Tweet this page" to the browser's "share" menu. You don't need to manually launch this application. Thank you.</p>
+     </secion>
     </section>
   </body>
-
 </html>
