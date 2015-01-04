@@ -1,12 +1,12 @@
 {
   "name": "Tweet this page",
-  "description": "Adds \"Tweet this page\" to the browser's \"share\" menu.",
+  "description": "Adds \"Tweet this page\" to the browser's \"Share with\" menu. Users can now easily share visiting web page using Twitter.",
   "version": "0.2.0",
   "default_locale": "en",
   "locales": {
     "ja": {
       "name": "このページをツイート",
-      "description": "ブラウザーの「共有」メニューに「このページをツイート」を追加します。"
+      "description": "ブラウザーの「共有」メニューに「このページをツイート」を追加します。訪問中のページをより簡単にTwitterで共有できます。"
     }
   },
   "launch_path": "/index.html",
