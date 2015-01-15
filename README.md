@@ -4,7 +4,7 @@ This tiny application adds "Tweet this page" option to Firefox OS's "Share with"
 
 このアプリケーションはFirefox OSの「共有」メニューに「このページをツイート」項目を追加します。ユーザーは訪問中のページをより簡単にTwitterへ共有できます。
 
-- [Firefox Marcketplace](https://marketplace.firefox.com/app/pstttwtr/)
+- [Firefox Marketplace](https://marketplace.firefox.com/app/pstttwtr/)
 
 ## Remarks
 
